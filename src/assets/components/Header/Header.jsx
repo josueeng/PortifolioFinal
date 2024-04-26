@@ -9,7 +9,7 @@ export default function Header() {
   return (
     <>
       <H.header>
-        <H.text>&lt; &gt; Josué Lopes &lt;/&gt;</H.text>
+        <a style={{ textDecoration: 'none' }} href="#Home"><H.text>&lt; &gt; Josué Lopes &lt;/&gt;</H.text></a>
         <H.menu>
           <H.LinkMenu href="#sobre">Sobre Mim</H.LinkMenu>
           <H.LinkMenu href="#minhas">Minhas Tecnologias</H.LinkMenu>
