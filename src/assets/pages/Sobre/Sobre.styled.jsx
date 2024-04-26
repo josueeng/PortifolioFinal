@@ -71,11 +71,8 @@ export const ContWork = styled.div`
   @media (max-width: 768px) {
     justify-content: space-around;
     width: 99vw;
-  height: 800px;
-
-    
+    height: 800px;
   }
-  
 `;
 export const TrabOne = styled.div`
   display: flex;
@@ -85,8 +82,6 @@ export const TrabOne = styled.div`
   height: 100px;
   background: var(--Dark-Mode, #191919);
   @media (max-width: 768px) {
-
-    
     width: 99vw;
   }
 `;
@@ -153,7 +148,6 @@ export const LinhaWord = styled.div`
   background: white;
   @media (max-width: 768px) {
     width: 99vw;
-  
   }
 `;
 
@@ -167,7 +161,6 @@ export const ContEduc = styled.div`
   @media (max-width: 768px) {
     width: 99vw;
     height: 800px;
-  
   }
 `;
 export const TitEduc = styled.h1`
@@ -188,18 +181,16 @@ export const ContEducTop = styled.div`
   @media (max-width: 768px) {
     width: 99vw;
   }
- 
-
 `;
 export const TextEduc = styled.p`
-color: white;
-font-family: Poppins;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: 28px; /* 140% */
-letter-spacing: 1px;
-`
+  color: white;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 140% */
+  letter-spacing: 1px;
+`;
 export const ContCurso = styled.div`
   display: flex;
   flex-direction: column;
@@ -212,40 +203,39 @@ export const ContCurso = styled.div`
   }
 `;
 export const ButtWorkConc = styled.a`
-display: flex;
-justify-content: center;
-text-decoration: none;
-background: Green;
-align-items: center;
-color: white;
-opacity: 1;
-border-radius: 10px;
-width: 84px;
-height: 24px;
-flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  background: Green;
+  align-items: center;
+  color: white;
+  opacity: 1;
+  border-radius: 10px;
+  width: 84px;
+  height: 24px;
+  flex-shrink: 0;
 `;
 
 export const ButtWorkAnd = styled.a`
-display: flex;
-justify-content: center;
-background: var(--light-content, #a7a7a7);
-align-items: center;
-color: white;
-opacity: 1;
-text-decoration: none;
-border-radius: 10px;
-width: 84px;
-height: 24px;
-flex-shrink: 0;
-font-size: 14px;
+  display: flex;
+  justify-content: center;
+  background: var(--light-content, #a7a7a7);
+  align-items: center;
+  color: white;
+  opacity: 1;
+  text-decoration: none;
+  border-radius: 10px;
+  width: 84px;
+  height: 24px;
+  flex-shrink: 0;
+  font-size: 14px;
 `;
 
 export const ContEducBot = styled.div`
-display: flex;
-width: 600px;
-height: 50px;
-background: yellow;
-align-items: center;
-justify-content: space-between;
-
+  display: flex;
+  width: 600px;
+  height: 50px;
+  background: yellow;
+  align-items: center;
+  justify-content: space-between;
 `;

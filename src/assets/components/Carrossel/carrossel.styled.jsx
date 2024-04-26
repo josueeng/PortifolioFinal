@@ -8,10 +8,10 @@ export const GlobalStyle = createGlobalStyle`
     }
 `;
 export const Cont = styled.div`
-display: flex;
-justify-content: center;
-align-items: center;
-height: 100vh;
-width: 100%;
-background-color: #191919;
-`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-color: #191919;
+`;

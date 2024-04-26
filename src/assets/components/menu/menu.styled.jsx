@@ -13,19 +13,19 @@ export const ListHamburguer = styled.div`
   display: flex;
   width: 40px;
   height: 7px;
-  background-color: var(--light-Content, #A7A7A7);
+  background-color: var(--light-Content, #a7a7a7);
 `;
 export const ListHamburguer1 = styled.div`
   display: flex;
   width: 40px;
   height: 7px;
-  background-color:var(--light-Content, #A7A7A7);
+  background-color: var(--light-Content, #a7a7a7);
 `;
 export const ListHamburguer2 = styled.div`
   display: flex;
   width: 40px;
   height: 7px;
-  background-color: var(--light-Content, #A7A7A7);
+  background-color: var(--light-Content, #a7a7a7);
 `;
 
 export const Hamburguer = styled.div`
@@ -34,7 +34,6 @@ export const Hamburguer = styled.div`
   justify-content: space-around;
   width: 40px;
   height: 30px;
- 
 
   &:hover ${ListHamburguer} {
     transform: rotate(45deg);
@@ -51,15 +50,14 @@ export const Hamburguer = styled.div`
   }
 `;
 export const LiMenu = styled.a`
-display: flex;
-justify-content: center;
-align-items: center;
-width: 104%;
-height: 30px;
-color:white;
-text-decoration: none;
-position: relative; // Adicionado aqui
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 104%;
+  height: 30px;
+  color: white;
+  text-decoration: none;
+  position: relative; // Adicionado aqui
 `;
 export const ContMenu = styled.div`
   display: flex;
@@ -67,7 +65,6 @@ export const ContMenu = styled.div`
   align-items: flex-end;
   height: 10vh;
   flex-direction: column;
-  
 `;
 export const UlMenu = styled.ul`
   display: flex;

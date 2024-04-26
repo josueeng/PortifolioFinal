@@ -3,6 +3,7 @@ import React from "react";
 import portifolio from "../../../assets/imagens/tela.png";
 import githu from "../../../assets/imagens/github.png";
 import dominio from "../../../assets/imagens/dominio.png";
+import selfcare from "../../../assets/imagens/Selfcare.png";
 export default function Projetos() {
   return (
     <P.Container>
@@ -11,21 +12,29 @@ export default function Projetos() {
         <P.Projetos>
           Portifólio pessoal <P.portifolio src={portifolio} alt="" />
           <P.Buttons>
-            <P.Links href="">
+            <P.Links href="https://github.com/josueeng/PortifolioFinal">
               <img src={githu} alt="" />
               Repositório
             </P.Links>
-            <P.Links href="">
+            <P.Links href="https://devjosue.tech/">
               <img src={dominio} alt="" />
               Website
             </P.Links>
           </P.Buttons>
         </P.Projetos>
+
         <P.Projetos>
-          Portifólio pessoal <P.portifolio src={portifolio} alt="" />
-        </P.Projetos>
-        <P.Projetos>
-          Portifólio pessoal <P.portifolio src={portifolio} alt="" />
+          SelfCare <P.portifolio src={selfcare} alt="" />
+          <P.Buttons>
+            <P.Links href="https://github.com/josueeng/selfcare">
+              <img src={githu} alt="" />
+              Repositório
+            </P.Links>
+            <P.Links href="https://selfcaredesafio.shop/">
+              <img src={dominio} alt="" />
+              Website
+            </P.Links>
+          </P.Buttons>
         </P.Projetos>
       </P.Proj>
     </P.Container>

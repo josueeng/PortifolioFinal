@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import * as M from "./Home.styled.jsx";
 import eu from "../../../assets/imagens/eu.png";
-import Header from "../../components/Header/Header.jsx";
+
 
 export default function Main() {
   const [verb, setVerb] = useState("construo");
