@@ -44,11 +44,11 @@ export default function Sobre() {
               </S.ContDados>
               <S.ContDados>
                 <img src={local} alt="" />
-                <S.TextEmp>Rio do sul, sc </S.TextEmp>
+                <S.TextEmp>Localização </S.TextEmp>
               </S.ContDados>
               <S.ContDados>
                 <img src={calendario} alt="" />
-                <S.TextEmp>20.04.2001 </S.TextEmp>
+                <S.TextEmp>02.03.2024 </S.TextEmp>
               </S.ContDados>
             </S.ContBotWork>
           </S.TrabOne>
@@ -67,11 +67,11 @@ export default function Sobre() {
               </S.ContDados>
               <S.ContDados>
                 <img src={local} alt="" />
-                <S.TextEmp>Rio do sul, sc </S.TextEmp>
+                <S.TextEmp>Localização </S.TextEmp>
               </S.ContDados>
               <S.ContDados>
                 <img src={calendario} alt="" />
-                <S.TextEmp>20.04.2001 </S.TextEmp>
+                <S.TextEmp>02.03.2024 </S.TextEmp>
               </S.ContDados>
             </S.ContBotWork>
           </S.TrabOne>
