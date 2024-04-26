@@ -20,7 +20,6 @@ export default function Main() {
 
   return (
     <>
-      <Header />
       <M.ContSobre>
         <M.ContTextPrinc>
           <M.TextMain>Oi 👋, </M.TextMain>

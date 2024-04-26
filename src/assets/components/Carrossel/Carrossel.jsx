@@ -20,19 +20,37 @@ register()
 export default function Carrossel() {
   return (
     <Swiper
-      modules={[Autoplay]}
-      autoplay={{ delay: 600 }}
-      loop={true}
-      slidesPerView={5}
-      navigation={false}
-      centeredSlides={true}
-      pagination={true}
-      scrollbar={true}
-      onSwiper={(swiper) => console.log(swiper)}
-      onSlideChange={() => console.log('slide change')}
-      style={{ maxWidth: '100%', alignItems: 'center' }}
-    
-    >
+  modules={[Autoplay]}
+  autoplay={{ delay: 600 }}
+  loop={true}
+  slidesPerView={5}
+  navigation={false}
+  centeredSlides={true}
+  pagination={true}
+  scrollbar={true}
+  onSwiper={(swiper) => console.log(swiper)}
+  onSlideChange={() => console.log('slide change')}
+  style={{ maxWidth: '100%', alignItems: 'center' }}
+  
+  // Add breakpoints here
+  breakpoints={{
+    // when window width is >= 320px
+    320: {
+      slidesPerView: 2,
+      spaceBetween: 20
+    },
+    // when window width is >= 480px
+    480: {
+      slidesPerView: 3,
+      spaceBetween: 30
+    },
+    // when window width is >= 640px
+    640: {
+      slidesPerView: 4,
+      spaceBetween: 40
+    }
+  }}
+>
       <SwiperSlide><img src={html} alt="html" /></SwiperSlide>
       <SwiperSlide><img src={css} alt="css" /></SwiperSlide>
       <SwiperSlide><img src={javascript} alt="javascript" /></SwiperSlide>
