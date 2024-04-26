@@ -21,7 +21,7 @@ export default function Menu() {
             <H.LiMenu href="#sobre">Sobre Mim</H.LiMenu>
             <H.LiMenu href="#Minhas-Techs">Minhas Tecnologias</H.LiMenu>
             <H.LiMenu href="#projetos">Projetos</H.LiMenu>
-            <H.LiMenu href="footer">Contatos</H.LiMenu>
+            <H.LiMenu href="#Contatos">Contatos</H.LiMenu>
           </H.UlMenu>
         )}
       </H.ContMenu>

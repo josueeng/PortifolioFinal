@@ -24,7 +24,7 @@ export default function App() {
       <div id="projetos">
         <Projetos />
       </div>
-      <div id="footer">
+      <div id="Contatos">
         <Footer />
       </div>
     </>

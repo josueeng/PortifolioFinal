@@ -14,7 +14,7 @@ export default function Header() {
           <H.LinkMenu href="#sobre">Sobre Mim</H.LinkMenu>
           <H.LinkMenu href="#minhas">Minhas Tecnologias</H.LinkMenu>
           <H.LinkMenu href="#projetos">Meus Projetos</H.LinkMenu>
-          <H.LinkMenu href="#footer">Contato</H.LinkMenu>
+          <H.LinkMenu href="#Contatos">Contato</H.LinkMenu>
         </H.menu>
 
         <H.Redes>
