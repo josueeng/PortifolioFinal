@@ -17,14 +17,14 @@ export default function Projetos() {
               Repositório
             </P.Links>
             <P.Links href="https://devjosue.tech/">
-              <img src={dominio} alt="" />
+              <img src={dominio} alt="Link do meu portifolio" />
               Website
             </P.Links>
           </P.Buttons>
         </P.Projetos>
 
         <P.Projetos>
-          SelfCare <P.portifolio src={selfcare} alt="" />
+          SelfCare <P.portifolio src={selfcare} alt="link do repositorio selfcare" />
           <P.Buttons>
             <P.Links href="https://github.com/josueeng/selfcare">
               <img src={githu} alt="" />

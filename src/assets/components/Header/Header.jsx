@@ -18,10 +18,18 @@ export default function Header() {
         </H.menu>
 
         <H.Redes>
-          <H.Rede src={git} alt="" />
-          <H.Rede src={linkedin} alt="" />
-          <H.Rede src={instagram} alt="" />
-        </H.Redes>
+            <a href="https://github.com/josueeng">
+              <H.Rede src={git} alt="Link do Github" />
+            </a>
+            <a href="https://www.linkedin.com/in/josue-gomes-lopes-a5481728b/?originalSubdomain=br">
+              <H.Rede src={linkedin} alt="Link do Linkedin" />
+            </a>
+
+            <a href="https://www.instagram.com/josue.engenheiro_mec/">
+              
+              <H.Rede src={instagram} alt=""Link do Instagram />
+            </a>
+          </H.Redes>
         <Hamburguer />
       </H.header>
     </>
